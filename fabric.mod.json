@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "tpamacro",
+  "version": "${version}",
+  "name": "TPA Macro",
+  "description": "Multi-target /tpa and /tpahere macro with a liquid glass menu and dynamic island.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.tpamacro.TpaMacroClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
